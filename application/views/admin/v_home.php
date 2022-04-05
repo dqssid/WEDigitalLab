@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
     <div class="container-fluid py-4">
       <div class="row">
@@ -373,3 +374,11 @@
           </div>
         </div>
       </div>
+=======
+ <div class="content">
+                <div class="container-fluid">
+                    <div class="section">
+                    </div>
+                </div>
+            </div>
+>>>>>>> c27b72748c33777deba37f08d9d7490a1b474463
