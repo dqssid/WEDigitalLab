@@ -4,21 +4,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url();?>/template/admin/assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="<?php echo base_url();?>/template/admin/assets/img/favicon.png">
   <title>
     Argon Dashboard 2 by Creative Tim
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Nucleo Icons -->
-  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>/template/admin/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>/template/admin/assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>/template/admin/assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link id="pagestyle" href="../assets/css/argon-dashboard.css?v=2.0.2" rel="stylesheet" />
+  <link id="pagestyle" href="<?php echo base_url();?>/template/admin/assets/css/argon-dashboard.css?v=2.0.2" rel="stylesheet" />
 </head>
 
 <body class="">
@@ -28,7 +28,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg blur border-radius-lg top-0 z-index-3 shadow position-absolute mt-4 py-2 start-0 end-0 mx-4">
           <div class="container-fluid">
-            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="../pages/dashboard.html">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="<?php echo base_url();?>/template/admin/pages/dashboard.html">
               Argon Dashboard 2
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,25 +41,25 @@
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="../pages/dashboard.html">
+                  <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="<?php echo base_url();?>/pages/dashboard.html">
                     <i class="fa fa-chart-pie opacity-6 text-dark me-1"></i>
                     Dashboard
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-2" href="../pages/profile.html">
+                  <a class="nav-link me-2" href="<?php echo base_url();?>/template/admin/pages/profile.html">
                     <i class="fa fa-user opacity-6 text-dark me-1"></i>
                     Profile
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-2" href="../pages/sign-up.html">
+                  <a class="nav-link me-2" href="<?php echo base_url();?>/template/admin/pages/sign-up.html">
                     <i class="fas fa-user-circle opacity-6 text-dark me-1"></i>
                     Sign Up
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-2" href="../pages/sign-in.html">
+                  <a class="nav-link me-2" href="<?php echo base_url();?>/template/admin/pages/sign-in.html">
                     <i class="fas fa-key opacity-6 text-dark me-1"></i>
                     Sign In
                   </a>
@@ -101,7 +101,7 @@
                       <label class="form-check-label" for="rememberMe">Remember me</label>
                     </div>
                     <div class="text-center">
-                      <button type="button" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">Sign in</button>
+                      <button type="button" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0"><a href="<?php echo base_url('Home');?>">Sign in</a></button>
                     </div>
                   </form>
                 </div>
@@ -127,10 +127,10 @@
     </section>
   </main>
   <!--   Core JS Files   -->
-  <script src="../assets/js/core/popper.min.js"></script>
-  <script src="../assets/js/core/bootstrap.min.js"></script>
-  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="<?php echo base_url();?>/template/admin/assets/js/core/popper.min.js"></script>
+  <script src="<?php echo base_url();?>/template/admin/assets/js/core/bootstrap.min.js"></script>
+  <script src="<?php echo base_url();?>/template/admin/assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="<?php echo base_url();?>/template/admin/assets/js/plugins/smooth-scrollbar.min.js"></script>
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -143,7 +143,7 @@
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/argon-dashboard.min.js?v=2.0.2"></script>
+  <script src="<?php echo base_url();?>/template/admin/assets/js/argon-dashboard.min.js?v=2.0.2"></script>
 </body>
 
 </html>
