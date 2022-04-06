@@ -124,7 +124,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <h1 class="title">Business is Now Digital</h1>
                                     <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">Log-in</a></li>
+                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login');?>">Log-in</a></li>
                                     </ul>
                                 </div>
                             </div>
