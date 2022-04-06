@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <nav class="navbar navbar-expand-lg">
                        
                         <a class="navbar-brand" href="#">
-                            <img src="template/landing/assets/images/logo.svg" alt="Logo">
+                            <img src="template/landing/assets/images/logo-2.svg" alt="Logo">
                         </a>
                         
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
@@ -919,7 +919,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="template/landing/assets/images/logo.svg" alt="Logo"></a>
+                        <a class="mt-30" href="index.html"><img src="template/landing/assets/images/logoo.PNG" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
