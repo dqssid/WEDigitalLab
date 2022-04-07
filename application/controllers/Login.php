@@ -35,18 +35,18 @@ function login_aksi(){
 		//$sebagai = $this->input->post('sebagai');
 		
 		// $sebagai = $this->input->post('sebagai');
-		$this->form_validation->set_rules('username','Username','required');
+		$this->form_validation->set_rules('email','Username','required');
 		$this->form_validation->set_rules('password','Password','required');
 		if($this->form_validation->run() !=false){
 			$where = array(
-				'email' => $username,
+				'username' => $username,
 				'password' => md5($password)
 		);
 		
 		// if($sebagai == "admin"){
-			$cek = $this->m_data->cek_login('tbl_user',$where)->num_rows();
+			$cek = $this->M_data->cek_login('tbl_user',$where)->num_rows();
 			
-			$data = $this->m_data->cek_login('tbl_user',$where)->row();
+			$data = $this->M_data->cek_login('tbl_user',$where)->row();
 			
 			if($cek > 0){
 				$data_session = array(
