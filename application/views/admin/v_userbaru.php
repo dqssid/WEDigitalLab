@@ -39,21 +39,19 @@
                       </td>
                       <td>
                         <p class="text-xs font-weight-bold mb-0"><?php echo $u->username;?></p>
-                        <p class="text-xs text-secondary mb-0"><?php echo $u->level;?></p>
+                        <!--<p class="text-xs text-secondary mb-0"></p>-->
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success">Online</span>
+                        <span class="badge badge-sm bg-gradient-success"><?php echo $u->level;?></span>
                       </td>
                       <td class="align-middle text-center">
                         <span class="text-secondary text-xs font-weight-bold"><?php echo $u-> last_login?></span>
                       </td>
                       <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                        <a href="javascript:;" class="btn btn-primary" data-toggle="tooltip" data-original-title="Edit user">
                           Edit
                         </a>
                       </td>
-
-                      
                       <td class="align-middle">
                         <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
                           Hapus

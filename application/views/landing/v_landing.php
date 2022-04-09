@@ -83,9 +83,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#practice">Practicum</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#major">Major</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#academic">Academic</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#premium">Premium Features</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#team">Team</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
@@ -94,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
-                                <li><a class="solid" href="#">Download</a></li>
+                                <li><a class="solid" href="<?php echo base_url('Login');?>">Login</a></li>
                             </ul>
                         </div>
                     </nav> <!-- navbar -->
@@ -124,7 +123,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <h1 class="title">Digital Lab</h1>
                                     <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login');?>">Log-in</a></li>
+                                        <li><a class="main-btn rounded-one" href="#">Get Started</a></li>
+                                        <li><a class="main-btn rounded-one" href="#">Enroll</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -193,12 +193,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
     <!--====== FEATRES TWO PART START ======-->
 
-    <section id="services" class="features-area">
+    <section id="academic" class="features-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title">Our Services</h3>
+                        <h3 class="title">Academic</h3>
                         <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
                     </div> <!-- row -->
                 </div>
@@ -207,7 +207,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Graphics Design</a></h4>
+                            <h4 class="features-title"><a href="#">Digital Marketing</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-brush"></i>
                                 <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
@@ -222,7 +222,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Website Design</a></h4>
+                            <h4 class="features-title"><a href="#">HTML/CSS</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-layout"></i>
                                 <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
@@ -237,7 +237,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Digital Marketing</a></h4>
+                            <h4 class="features-title"><a href="#">OOP JAVA</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-bolt"></i>
                                 <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
@@ -252,222 +252,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
+        <!--====== FEATRES TWO PART ENDS ======-->
+        <!--====== PRINICNG START ======-->
 
-    <!--====== FEATRES TWO PART ENDS ======-->
-    
-    <!--====== PORTFOLIO PART START ======-->
-
-    <section id="portfolio" class="portfolio-area portfolio-four pb-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-10">
-                    <div class="section-title text-center pb-10">
-                        <h3 class="title">Featured Works</h3>
-                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-3 col-md-3">
-                    <div class="portfolio-menu text-center mt-50">
-                        <ul>
-                            <li data-filter="*" class="active">ALL WORK</li>
-                            <li data-filter=".branding-4">BRANDING</li>
-                            <li data-filter=".marketing-4">MARKETING</li>
-                            <li data-filter=".planning-4">PLANNING</li>
-                            <li data-filter=".research-4">RESEARCH</li>
-                        </ul>
-                    </div> <!-- portfolio menu -->
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <div class="row no-gutters grid mt-50">
-                        <div class="col-lg-4 col-sm-6 branding-4 planning-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/1.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/1.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="<?php echo base_url();?>template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="<?php echo base_url();?>template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6 marketing-4 research-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/2.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/2.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6 branding-4 marketing-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/3.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/3.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6 planning-4 research-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/4.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/4.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6 marketing-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/5.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/5.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6 planning-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/6.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/6.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6 research-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/7.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/7.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6 branding-4 planning-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/8.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/8.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6 marketing-4">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="template/landing/assets/images/portfolio/9.png" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="<?php echo base_url();?>template/landing/assets/images/portfolio/9.png"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="template/landing/assets/images/portfolio/shape.svg" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- single portfolio -->
-                        </div>
-                    </div> <!-- row -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== PORTFOLIO PART ENDS ======-->
-    
-    <!--====== PRINICNG START ======-->
-
-    <section id="pricing" class="pricing-area ">
+    <section id="premium" class="pricing-area ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-25">
-                        <h3 class="title">Pricing Plans</h3>
+                        <h3 class="title">Premium Features</h3>
                         <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
                     </div> <!-- section title -->
                 </div>
@@ -744,7 +537,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div> <!-- row -->
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
                             <img src="template/landing/assets/images/team-1.jpg" alt="Team">
@@ -758,12 +551,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <li><a href="#"><i class="lni lni-instagram"></i></a></li>
                                 </ul>
                             </div>
-                            <h4 class="team-name"><a href="#">Jeffery Riley</a></h4>
-                            <span class="sub-title">Art Director</span>
+                            <h4 class="team-name"><a href="#">Darir</a></h4>
+                            <span class="sub-title">Leader</span>
                         </div>
                     </div> <!-- single team -->
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
                             <img src="template/landing/assets/images/team-2.jpg" alt="Team">
@@ -777,12 +570,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <li><a href="#"><i class="lni lni-instagram"></i></a></li>
                                 </ul>
                             </div>
-                            <h4 class="team-name"><a href="#">Riley Beata</a></h4>
-                            <span class="sub-title">Web Developer</span>
+                            <h4 class="team-name"><a href="#">Fadli</a></h4>
+                            <span class="sub-title">UX Designer</span>
                         </div>
                     </div> <!-- single team -->
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
                             <img src="template/landing/assets/images/team-3.jpg" alt="Team">
@@ -796,8 +589,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <li><a href="#"><i class="lni lni-instagram"></i></a></li>
                                 </ul>
                             </div>
-                            <h4 class="team-name"><a href="#">Mark A. Parker</a></h4>
+                            <h4 class="team-name"><a href="#">Kurnia</a></h4>
                             <span class="sub-title">UX Designer</span>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="template/landing/assets/images/team-3.jpg" alt="Team">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
+                                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
+                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name"><a href="#">Mazaya</a></h4>
+                            <span class="sub-title">User Error</span>
                         </div>
                     </div> <!-- single team -->
                 </div>
@@ -822,7 +634,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-map mt-30">
-                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15825.19272442315!2d109.3463492!3d-7.4322191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x29552c599c5591e4!2sCV%20BerKita!5e0!3m2!1sen!2sid!4v1649514343867!5m2!1sen!2sid" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div> <!-- row -->
                 </div>
             </div> <!-- row -->
