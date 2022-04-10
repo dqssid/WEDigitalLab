@@ -7,7 +7,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url();?>/template/admin/assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="<?php echo base_url();?>/template/admin/assets/img/favicon.png">
   <title>
-    Argon Dashboard 2 by Creative Tim
+    Admin Dashboard | Sign in
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -29,7 +29,7 @@
         <nav class="navbar navbar-expand-lg blur border-radius-lg top-0 z-index-3 shadow position-absolute mt-4 py-2 start-0 end-0 mx-4">
           <div class="container-fluid">
             <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="<?php echo base_url();?>/template/admin/pages/dashboard.html">
-              Argon Dashboard 2
+              Dashboard Admin
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon mt-2">
@@ -63,11 +63,6 @@
                     <i class="fas fa-key opacity-6 text-dark me-1"></i>
                     Sign In
                   </a>
-                </li>
-              </ul>
-              <ul class="navbar-nav d-lg-block d-none">
-                <li class="nav-item">
-                  <a href="https://www.creative-tim.com/product/argon-dashboard" class="btn btn-sm mb-0 me-1 btn-primary">Free Download</a>
                 </li>
               </ul>
             </div>
