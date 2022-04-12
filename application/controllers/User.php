@@ -28,30 +28,30 @@ class User extends CI_Controller {
 		$this->load->view('admin/v_userbaru', $data);
 		$this->load->view('admin/v_footer');
 	}
-	function petugas_tambah_aksi(){
+	function petugas_tambah_aksi()
+	{
 		$email = $this->input->post('email');
 		$password = $this->input->post('password');
 		$level = $this->input->post('level');
 		$data = array(
 		'username' => $email,
 		'password' => md5($password,),
-		'level' => $level
-	);
+		'level' => $level);
 	// insert data ke database
 		$this->M_data->insert_data($data,'tbl_user');
 		
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'user');
-		}
+	}
 	
-	    function user_tambah(){
+	function user_tambah(){
 		$this->load->view('admin/v_header');
 		$this->load->view('admin/v_sidebar');
 		$this->load->view('admin/v_navbar');
 		$this->load->view('admin/v_form_tambah_user');
 		$this->load->view('admin/v_footer');
 	}
-		function user_edit(){
+	function user_edit(){
 		$id_user = $this->uri->segment(3);
 		$where = array('id_user' => $id_user);
 		// mengambil data dari database sesuai id
@@ -73,24 +73,27 @@ class User extends CI_Controller {
 		// cek apakah form password di isi atau tidak
 		if($password==""){
 		$data = array(
-		'id' => $nama,
-		'username' => $username
-		);
-		// update data ke database
-		$this->m_data->update_data($where,$data,'tbl_user');
-		}else{
-		$data = array(
-		'nama' => $nama,
+		# 'id' => $id, #MAZAYA: ini yg tadinya 'id' = $nama
 		'username' => $username,
-		'password' => md5($password)
+		'level' => $level
 		);
 		// update data ke database
-		$this->m_data->update_data($where,$data,'petugas');
+		$this->M_data->update_data($where,$data,'tbl_user');
+	}else{
+		$data = array(
+		'id' => $id, #MAZAYA: ini yg tadinya 'nama' = $nama
+		'username' => $username,
+		'password' => md5($password),
+		'level' => $level #ini zaya tambahin, maaf
+		);
+		// update data ke database
+		$this->M_data->update_data($where,$data,'petugas');
 		}
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'admin/petugas');
-		}
-	function user_hapus(){
+	}	
+	function user_hapus()
+	{
 		$id_user = $this->uri->segment(3);
 		$where = array(
 		'id_user' => $id_user
@@ -99,7 +102,10 @@ class User extends CI_Controller {
 		$this->M_data->delete_data($where,'tbl_user');
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'user');
-		}
-		
+	}
+	function logout(){
+			$this->session->sess_destroy();
+			redirect(base_url().'landing/?alert=logout');
+	}
 	
 }
