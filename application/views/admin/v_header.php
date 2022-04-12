@@ -20,6 +20,7 @@
   <link href="<?php echo base_url();?>template/admin/assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="<?php echo base_url();?>template/admin/assets/css/argon-dashboard.css?v=2.0.2" rel="stylesheet" />
+  <link id="pagestyle" href="<?php echo base_url();?>template/landing/assets/css/bootstrap.min.css" rel="stylesheet" />
 
 <head>
     
