@@ -12,7 +12,7 @@
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nis</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">NIS</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Nama</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Username</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Password</th>
@@ -45,10 +45,10 @@
                         <span class="badge badge-sm bg-gradient-success"><?php echo $u->nama;?></span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold"><?php echo $u->username?></span>
+                        <span class="text-secondary text-xs font-weight-bold"><?php echo $u->username;?></span>
                       </td>
-					  <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold"><?php echo $u->password?></span>
+					            <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold"><?php echo $u->password;?></span>
                       </td>
                       <td class="align-middle">
                         <a href="javascript:;" class="btn btn-primary" data-toggle="tooltip" data-original-title="Edit user">
