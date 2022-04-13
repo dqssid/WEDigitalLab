@@ -73,19 +73,19 @@ class User extends CI_Controller {
 		// cek apakah form password di isi atau tidak
 		if($password==""){
 		$data = array(
-		'id' => $nama,
+		'id' => $id,
 		'username' => $username
 		);
 		// update data ke database
-		$this->m_data->update_data($where,$data,'tbl_user');
+		$this->M_data->update_data($where,$data,'tbl_user');
 		}else{
 		$data = array(
-		'nama' => $nama,
+		'id' => $id,
 		'username' => $username,
 		'password' => md5($password)
 		);
 		// update data ke database
-		$this->m_data->update_data($where,$data,'petugas');
+		$this->M_data->update_data($where,$data,'petugas');
 		}
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'admin/petugas');
