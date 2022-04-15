@@ -49,13 +49,11 @@
                         <span class="text-secondary text-xs font-weight-bold"><?php echo $u-> last_login; ?></span>
                       </td>
                       <td class="align-middle">
-                        <a href="<?php echo base_url().'user/user_edit/'.$u->id_user; ?>" class="btn btn-sm btn-warning"><i class="fa fa-wrench"></i> Edit</a>
-                         
+                        <a href="<?php echo base_url().'user/user_edit/'.$u->id_user; ?>" class="btn btn-sm btn-warning"><i class="fa fa-wrench"></i> Edit
                         </a>
                       </td>
                       <td class="align-middle">
-                        <a href="<?php echo base_url('user/user_hapus/'.$u->id_user); ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Hapus</a>
-                          
+                        <a href="<?php echo base_url('user/user_hapus/'.$u->id_user); ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Hapus
                         </a>
                       </td>
                     </tr>

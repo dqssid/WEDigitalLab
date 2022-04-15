@@ -1,7 +1,7 @@
 	<div class="container">
 <div class="card">
 	<div class="card-header text-center">
-	<h4>Edit Petugas</h4>
+	<h4>Edit Guru</h4>
 	</div>
 	<div class="card-body">
 	<a href="<?php echo base_url().'Guru/guru_edit' ?>" class='btn btn-sm btnlight

@@ -70,8 +70,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
                        
-                        <a class="navbar-brand" href="#">
-                            <img src="template/landing/assets/images/logo-2.svg" alt="Logo">
+                        <a class="navbar-brand" href="">
+                            <img src="<?php echo base_url();?>template/landing/assets/images/logo.png" width ="110" height="110" alt="Logo">
                         </a>
                         
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#academic">Academic</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#premium">Premium Features</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#blog">Our Blog</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#team">Team</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
-                                <li><a class="solid" href="<?php echo base_url('Login');?>">Login</a></li>
+                                <li><a class="solid" href="<?php echo base_url('Login');?>">Log-in</a></li>
                             </ul>
                         </div>
                     </nav> <!-- navbar -->
@@ -109,7 +109,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section id="home" class="slider_area">
         <div id="carouselThree" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselThree" data-slide-to="0" class= "active"></li>
                 <li data-target="#carouselThree" data-slide-to="1"></li>
                 <li data-target="#carouselThree" data-slide-to="2"></li>
             </ol>
@@ -120,11 +120,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">Digital Lab</h1>
+                                    <h1 class="title">Digital Laboratory</h1>
                                     <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">Get Started</a></li>
-                                        <li><a class="main-btn rounded-one" href="#">Enroll</a></li>
+                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login');?>">Get Started</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -142,10 +141,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">Crafted for Business</h1>
+                                    <h1 class="title">Chemistry Practice</h1>
                                     <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">Log-in</a></li>
+                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login');?>">Get Started</a></li>
                                     </ul>
                                 </div> <!-- slider-content -->
                             </div>
@@ -163,10 +162,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">Based on Bootstrap 4</h1>
+                                    <h1 class="title">Coming Soon</h1>
                                     <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">Log-in</a></li>
+                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login');?>">Get Started</a></li>
                                     </ul>
                                 </div> <!-- slider-content -->
                             </div>
@@ -207,7 +206,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Digital Marketing</a></h4>
+                            <h4 class="features-title"><a href="#">Materi</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-brush"></i>
                                 <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
@@ -222,7 +221,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">HTML/CSS</a></h4>
+                            <h4 class="features-title"><a href="#">Praktikum</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-layout"></i>
                                 <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
@@ -237,7 +236,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">OOP JAVA</a></h4>
+                            <h4 class="features-title"><a href="#">Absensi</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-bolt"></i>
                                 <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
@@ -255,12 +254,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!--====== FEATRES TWO PART ENDS ======-->
         <!--====== PRINICNG START ======-->
 
-    <section id="premium" class="pricing-area ">
+    <section id="blog" class="pricing-area ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-25">
-                        <h3 class="title">Premium Features</h3>
+                        <h3 class="title">Our Blog's</h3>
                         <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
                     </div> <!-- section title -->
                 </div>
@@ -272,8 +271,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <img src="template/landing/assets/images/basic.svg" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">Basic</h5>
-                            <p class="month"><span class="price">$ 199</span>/month</p>
+                            <h5 class="sub-title">Trend</h5>
+                            <p class="month"><span class="price">Dasar- Dasar Java</p>
                         </div>
                         <div class="pricing-list">
                             <ul>
@@ -294,7 +293,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="pricing-header text-center">
                             <h5 class="sub-title">Pro</h5>
-                            <p class="month"><span class="price">$ 399</span>/month</p>
+                            <p class="month"><span class="price">Prakerin 2022/2023</p>
                         </div>
                         <div class="pricing-list">
                             <ul>
@@ -314,8 +313,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <img src="<?php echo base_url();?>template/landing/assets/images/enterprise.svg" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">Enterprise</h5>
-                            <p class="month"><span class="price">$ 699</span>/month</p>
+                            <h5 class="sub-title">12/22/20</h5>
+                            <p class="month"><span class="price">Eksperimen Manusia Salju</span></p>
                         </div>
                         <div class="pricing-list">
                             <ul>
@@ -646,7 +645,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <i class="lni lni-map-marker"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text"> Elizabeth St, Melbourne<br>1202 Australia.</p>
+                                <p class="text"> CV. Berkita, Rabak, Kalimanah<br>Purbalingga, Jawa Tengah.</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>
@@ -656,7 +655,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <i class="lni lni-envelope"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text">hello@ayroui.com</p>
+                                <p class="text">digitallab@berkita.com</p>
                                 <p class="text">support@uideck.com</p>
                             </div>
                         </div> <!-- single contact info -->
@@ -731,7 +730,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="template/landing/assets/images/logoo.PNG" alt="Logo"></a>
+                        <a class="mt-30" href="index.html"><img src="template/landing/assets/images/clogo.png" alt="Logo"></a>                    
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
@@ -744,7 +743,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <span class="mail">support@uideck.com</span>
                     </div>
                     <div class="copyright text-center mt-35">
-                        <p class="text">Designed by <a href="https://uideck.com" rel="nofollow">UIdeck</a> and Built-with <a rel="nofollow" href="https://ayroui.com">Ayro UI</a> </p>
+                        <p class="text">Designed by <a href="https://uideck.com" rel="nofollow">UIdeck</a> and Built-with <a rel="nofollow" href="https://ayroui.com">DigitalLab || Berkita</a> </p> <!-- https://ayroui.com -->
                     </div> <!--  copyright -->
                 </div>
             </div> <!-- row -->
