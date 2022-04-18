@@ -1,6 +1,4 @@
-
-
-    <div class="container-fluid py-4">
+<div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
@@ -8,13 +6,13 @@
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Money</p>
-                    <h5 class="font-weight-bolder">
-                      $53,000
+                  <h5 class="font-weight-bolder">
+                      Praktikum
                     </h5>
+                    <p class="text-sm mb-0 text-uppercase font-weight-bold"></p>
                     <p class="mb-0">
-                      <span class="text-success text-sm font-weight-bolder">+55%</span>
-                      since yesterday
+                    <span class="text-success text-sm font-weight-bolder">Check your practice now!</span>
+                    Lorem ipsum dolor sit amet.
                     </p>
                   </div>
                 </div>
@@ -33,13 +31,13 @@
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Users</p>
                     <h5 class="font-weight-bolder">
-                      2,300
+                      Materi
                     </h5>
+                    <p class="text-sm mb-0 text-uppercase font-weight-bold"></p>
                     <p class="mb-0">
-                      <span class="text-success text-sm font-weight-bolder">+3%</span>
-                      since last week
+                      <span class="text-success text-sm font-weight-bolder">Check your major!</span>
+                      Lorem ipsum dolor sit amet.
                     </p>
                   </div>
                 </div>
@@ -58,13 +56,14 @@
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-uppercase font-weight-bold">New Clients</p>
                     <h5 class="font-weight-bolder">
-                      +3,462
+                      DigiBlog's
                     </h5>
+                    <p class="text-sm mb-0 text-uppercase font-weight-bold"></p>
+                    
                     <p class="mb-0">
-                      <span class="text-danger text-sm font-weight-bolder">-2%</span>
-                      since last quarter
+                      <span class="text-success text-sm font-weight-bolder">Read trending blog</span>
+                      Lorem ipsum dolor sit amet.
                     </p>
                   </div>
                 </div>
@@ -83,12 +82,12 @@
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Sales</p>
                     <h5 class="font-weight-bolder">
-                      $103,430
+                      More Info
                     </h5>
+                    <p class="text-sm mb-0 text-uppercase font-weight-bold"></p>
                     <p class="mb-0">
-                      <span class="text-success text-sm font-weight-bolder">+5%</span> than last month
+                      <span class="text-success text-sm font-weight-bolder">About Digilab</span>Lorem ipsum dolor sit amet.
                     </p>
                   </div>
                 </div>
@@ -106,10 +105,10 @@
         <div class="col-lg-7 mb-lg-0 mb-4">
           <div class="card z-index-2 h-100">
             <div class="card-header pb-0 pt-3 bg-transparent">
-              <h6 class="text-capitalize">Sales overview</h6>
+              <h6 class="text-capitalize">Jumlah Paktik hari ini</h6>
               <p class="text-sm mb-0">
                 <i class="fa fa-arrow-up text-success"></i>
-                <span class="font-weight-bold">4% more</span> in 2021
+                <span class="font-weight-bold">Berdasarkan jurusan</span> 
               </p>
             </div>
             <div class="card-body p-3">
@@ -129,7 +128,7 @@
                     <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
                       <i class="ni ni-camera-compact text-dark opacity-10"></i>
                     </div>
-                    <h5 class="text-white mb-1">Get started with Argon</h5>
+                    <h5 class="text-white mb-1">What's New in DigiLab?</h5>
                     <p>There’s nothing I really wanted to do in life that I wasn’t able to get good at.</p>
                   </div>
                 </div>
@@ -139,7 +138,7 @@
                     <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
                       <i class="ni ni-bulb-61 text-dark opacity-10"></i>
                     </div>
-                    <h5 class="text-white mb-1">Faster way to create web pages</h5>
+                    <h5 class="text-white mb-1">1st Trending in DigiLab</h5>
                     <p>That’s my skill. I’m not really specifically talented at anything except for the ability to learn.</p>
                   </div>
                 </div>
@@ -171,7 +170,7 @@
           <div class="card ">
             <div class="card-header pb-0 p-3">
               <div class="d-flex justify-content-between">
-                <h6 class="mb-2">Sales by Country</h6>
+                <h6 class="mb-2">Jumlah Praktik berdasarkan Jurusan</h6>
               </div>
             </div>
             <div class="table-responsive">
@@ -184,27 +183,27 @@
                           <img src="<?php echo base_url();?>template/admin/assets/img/icons/flags/US.png" alt="Country flag">
                         </div>
                         <div class="ms-4">
-                          <p class="text-xs font-weight-bold mb-0">Country:</p>
-                          <h6 class="text-sm mb-0">United States</h6>
+                          <p class="text-xs font-weight-bold mb-0">No</p>
+                          <h6 class="text-sm mb-0">AKL</h6>
                         </div>
                       </div>
                     </td>
                     <td>
                       <div class="text-center">
-                        <p class="text-xs font-weight-bold mb-0">Sales:</p>
-                        <h6 class="text-sm mb-0">2500</h6>
+                        <p class="text-xs font-weight-bold mb-0">Praktik hari ini:</p>
+                        <h6 class="text-sm mb-0">15</h6>
                       </div>
                     </td>
                     <td>
                       <div class="text-center">
-                        <p class="text-xs font-weight-bold mb-0">Value:</p>
-                        <h6 class="text-sm mb-0">$230,900</h6>
+                        <p class="text-xs font-weight-bold mb-0">On Going</p>
+                        <h6 class="text-sm mb-0">5</h6>
                       </div>
                     </td>
                     <td class="align-middle text-sm">
                       <div class="col text-center">
-                        <p class="text-xs font-weight-bold mb-0">Bounce:</p>
-                        <h6 class="text-sm mb-0">29.9%</h6>
+                        <p class="text-xs font-weight-bold mb-0">Done</p>
+                        <h6 class="text-sm mb-0">3</h6>
                       </div>
                     </td>
                   </tr>
@@ -215,27 +214,27 @@
                           <img src="<?php echo base_url();?>template/admin/assets/img/icons/flags/DE.png" alt="Country flag">
                         </div>
                         <div class="ms-4">
-                          <p class="text-xs font-weight-bold mb-0">Country:</p>
-                          <h6 class="text-sm mb-0">Germany</h6>
+                          <p class="text-xs font-weight-bold mb-0"></p>
+                          <h6 class="text-sm mb-0">OTKP</h6>
                         </div>
                       </div>
                     </td>
                     <td>
                       <div class="text-center">
-                        <p class="text-xs font-weight-bold mb-0">Sales:</p>
-                        <h6 class="text-sm mb-0">3.900</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">3</h6>
                       </div>
                     </td>
                     <td>
                       <div class="text-center">
-                        <p class="text-xs font-weight-bold mb-0">Value:</p>
-                        <h6 class="text-sm mb-0">$440,000</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">1</h6>
                       </div>
                     </td>
                     <td class="align-middle text-sm">
                       <div class="col text-center">
-                        <p class="text-xs font-weight-bold mb-0">Bounce:</p>
-                        <h6 class="text-sm mb-0">40.22%</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">1</h6>
                       </div>
                     </td>
                   </tr>
@@ -246,27 +245,27 @@
                           <img src="<?php echo base_url();?>template/admin/assets/img/icons/flags/GB.png" alt="Country flag">
                         </div>
                         <div class="ms-4">
-                          <p class="text-xs font-weight-bold mb-0">Country:</p>
-                          <h6 class="text-sm mb-0">Great Britain</h6>
+                          <p class="text-xs font-weight-bold mb-0"></p>
+                          <h6 class="text-sm mb-0">BDP</h6>
                         </div>
                       </div>
                     </td>
                     <td>
                       <div class="text-center">
-                        <p class="text-xs font-weight-bold mb-0">Sales:</p>
-                        <h6 class="text-sm mb-0">1.400</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">2</h6>
                       </div>
                     </td>
                     <td>
                       <div class="text-center">
-                        <p class="text-xs font-weight-bold mb-0">Value:</p>
-                        <h6 class="text-sm mb-0">$190,700</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">0</h6>
                       </div>
                     </td>
                     <td class="align-middle text-sm">
                       <div class="col text-center">
-                        <p class="text-xs font-weight-bold mb-0">Bounce:</p>
-                        <h6 class="text-sm mb-0">23.44%</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">4</h6>
                       </div>
                     </td>
                   </tr>
@@ -277,27 +276,58 @@
                           <img src="<?php echo base_url();?>template/admin/assets/img/icons/flags/BR.png" alt="Country flag">
                         </div>
                         <div class="ms-4">
-                          <p class="text-xs font-weight-bold mb-0">Country:</p>
-                          <h6 class="text-sm mb-0">Brasil</h6>
+                          <p class="text-xs font-weight-bold mb-0"></p>
+                          <h6 class="text-sm mb-0">TKJ</h6>
                         </div>
                       </div>
                     </td>
                     <td>
                       <div class="text-center">
-                        <p class="text-xs font-weight-bold mb-0">Sales:</p>
-                        <h6 class="text-sm mb-0">562</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">2</h6>
                       </div>
                     </td>
                     <td>
                       <div class="text-center">
-                        <p class="text-xs font-weight-bold mb-0">Value:</p>
-                        <h6 class="text-sm mb-0">$143,960</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">4</h6>
                       </div>
                     </td>
                     <td class="align-middle text-sm">
                       <div class="col text-center">
-                        <p class="text-xs font-weight-bold mb-0">Bounce:</p>
-                        <h6 class="text-sm mb-0">32.14%</h6>
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">2</h6>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="w-30">
+                      <div class="d-flex px-2 py-1 align-items-center">
+                        <div>
+                          <img src="<?php echo base_url();?>template/admin/assets/img/icons/flags/DE.png" alt="Country flag">
+                        </div>
+                        <div class="ms-4">
+                          <p class="text-xs font-weight-bold mb-0"></p>
+                          <h6 class="text-sm mb-0">RPL</h6>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">3</h6>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">1</h6>
+                      </div>
+                    </td>
+                    <td class="align-middle text-sm">
+                      <div class="col text-center">
+                        <p class="text-xs font-weight-bold mb-0"></p>
+                        <h6 class="text-sm mb-0">1</h6>
                       </div>
                     </td>
                   </tr>

@@ -90,7 +90,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
                             </ul>
                         </div>
-                        
+                        <div class = "navbar-btn d-none d-sm-inline-block">
+                            <ul>
+                                <li><a class="solid" href="<?php echo base_url('BRegistrasi');?>">Registrasi</a></li>
+                            </ul>
+                        </div>
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
                                 <li><a class="solid" href="<?php echo base_url('Login');?>">Log-in</a></li>
@@ -342,52 +346,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="faq-content mt-45">
                         <div class="about-title">
                             <h6 class="sub-title">A Little More About Us</h6>
-                            <h4 class="title">Frequently Asked Questions <br> About Our Site</h4>
+                            <h4 class="title">Frequently Asked Questions About Our Site</h4>
                         </div> <!-- faq title -->
                         <div class="about-accordion">
                             <div class="accordion" id="accordionExample">
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
-                                        <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Frequently Asked Question One</a>
+                                        <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Who We Are</a>
                                     </div>
 
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+                                            <p class="text">Team Study Cases DigitalLab from CV Berkita</p>
                                         </div>
                                     </div> 
                                 </div> <!-- card -->
                                 <div class="card">
                                     <div class="card-header" id="headingTwo">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Frequently Asked Question Two</a>
+                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Digital Laboratory</a>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+                                            <p class="text">Sistem Informasi Manajemen Laboratorium adalah sebuah aplikasi perangkat lunak berbasis komputer yang digunakan di laboratorium untuk mengelola dan menganalisis  sampel , hasil tes , staff  laboratorium, peralatan laboratorium serta  bertujuan untuk menghasilkan laporan dan fungsi lain. Dengan demikian, fungsi dari sistem informasi laboratorium pengelolaan mencakup pengelolaan kegiatan di laboratorium , mengelola informasi laboratorium , serta integrasi perangkat dan pengolahan sistem komputer lainnya (Skobelev, 2011).</p>
                                         </div>
                                     </div>
                                 </div> <!-- card -->
                                 <div class="card">
                                     <div class="card-header" id="headingThree">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Frequently Asked Question Three</a>
+                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Tujuan DigitalLab</a>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+                                            <p class="text">1. Meningkatkan kualitas dalam mengajar praktik secara online dan mengoptimalkan proses pembelajaran praktik secara online.<br/> 2. Meningkatkan kualitas dalam mengajar praktik secara online dan mengoptimalkan proses pembelajaran praktik secara online. <br/> 3. Membantu siswa dan guru dalam monitoring aktifitas atau praktik - praktik laboratorium. Seperti, materi apa yang akan di praktikan, jadwal praktik, data guru, data siswa, data admin.<br/> 4. Agar siswa dapat  memahami konsep materi sebelum melakukan praktik</p>
                                         </div>
                                     </div>
                                 </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingFore">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFore" aria-expanded="false" aria-controls="collapseFore">Frequently Asked Question Four</a>
-                                    </div>
-                                    <div id="collapseFore" class="collapse" aria-labelledby="headingFore" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                                <div class="card">
+                                <!-- card -->
+                                <!--<div class="card">
                                     <div class="card-header" id="headingFive">
                                         <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Frequently Asked Question Five</a>
                                     </div>
@@ -396,7 +391,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
                                         </div>
                                     </div>
-                                </div> <!-- card -->
+                                </div> 
+                                    -->
                             </div>
                         </div> <!-- faq accordion -->
                     </div> <!-- faq content -->
@@ -420,7 +416,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-xl-5 col-lg-6">
                     <div class="testimonial-left-content mt-45">
                         <h6 class="sub-title">Testimonials</h6>
-                        <h4 class="title">What Clients Says <br> About Us</h4>
+                        <h4 class="title">What People Says <br> About Us</h4>
                         <ul class="testimonial-line">
                             <li></li>
                             <li></li>

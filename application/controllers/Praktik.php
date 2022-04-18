@@ -36,6 +36,7 @@ class Praktik extends CI_Controller {
 		$nm_guru = $this->input->post('nm_guru');
 		$jurusan = $this->input->post('jurusan');
         $kelas = $this->input->post('kelas');
+		# $batas_waktu = $this->input->post('batas_waktu')
 		$keterangan = $this->input->post('keterangan');
 
 		$data = array(
@@ -55,7 +56,7 @@ class Praktik extends CI_Controller {
 		$this->load->view('admin/v_header');
 		$this->load->view('admin/v_sidebar');
 		$this->load->view('admin/v_navbar');
-		$this->load->view('admin/v_form_tambah_praktik');
+		$this->load->view('admin/v_tambah_praktik');
 		$this->load->view('admin/v_footer');
 }
 function praktik_edit(){
