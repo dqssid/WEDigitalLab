@@ -46,12 +46,12 @@
                       </td>
                      
                       <td class="align-middle">
-                        <a href="<?php echo base_url().'guru/guru_edit/'.$u->id_guru; ?>" class="btn btn-sm btn-warning"><i class="fa fa-wrench"></i> Edit</a>
+                        <a href="<?php echo base_url().'materi/materi_edit/'.$u->id_guru; ?>" class="btn btn-sm btn-warning"><i class="fa fa-wrench"></i> Edit</a>
                          
                         </a>
                       </td>
                       <td class="align-middle">
-                        <a href="<?php echo base_url('guru/guru_hapus/'.$u->id_guru); ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Hapus</a>
+                        <a href="<?php echo base_url('materi/materi_hapus/'.$u->id_guru); ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Hapus</a>
                           
                         </a>
                       </td>

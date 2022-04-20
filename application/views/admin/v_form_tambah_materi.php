@@ -10,7 +10,7 @@
             <div class="card-body px-3 pt-3 pb-4">
 				<div class="table-responsive p-0">
 
-				<form method="post" action="<?php echo base_url('materi/materi_tambah_aksi');?>">
+				<form method="post" action="<?php echo base_url('Materi/materi_tambah_aksi');?>">
 				  <div class="form-group">
 					<label for="exampleInputEmail1">Email address</label>
 					<input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">

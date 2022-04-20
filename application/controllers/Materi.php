@@ -39,8 +39,8 @@ class Materi extends CI_Controller {
 			'status' => 1
 		);
 		// insert data ke database
-		$this->m_data->insert_data($data,'tbl_materi');
-		// mengalihkan halaman ke halaman data buku
+		$this->M_data->insert_data($data,'tbl_materi');
+		// mengalihkan halaman ke halaman data materi
 		redirect(base_url().'materi');
 	}
 	function materi_tambah(){
@@ -49,6 +49,36 @@ class Materi extends CI_Controller {
 		$this->load->view('admin/v_navbar');
 		$this->load->view('admin/v_form_tambah_materi1');
 		$this->load->view('admin/v_footer');
+	}
+	function materi_edit($id){
+		$where = array('id' => $id);
+		// mengambil data dari database sesuai id
+		$data['materi'] = $this->m_data->edit_data($where,'tbl_materi')->result();
+		$this->load->view('admin/v_header');
+		$this->load->view('admin/v_sidebar');
+		$this->load->view('admin/v_navbar');
+		$this->load->view('admin/v_materi_edit',$data);
+		$this->load->view('admin/v_footer');
+	}
+	function materi_update(){
+		$id = $this->input->post('id');
+		$judul = $this->input->post('judul');
+		$penulis = $this->input->post('penulis');
+		$tahun = $this->input->post('tahun');
+		$status = $this->input->post('status');
+		$where = array(
+			'id' => $id
+		);
+		$data = array(
+			'judul' => $judul,
+			'penulis' => $penulis,
+			'tahun' => $tahun,
+			'status' => $status
+		);
+		// insert data ke database
+		$this->M_data->insert_data($data,'tbl_materi');
+		// mengalihkan halaman ke halaman data materi
+		redirect(base_url().'materi');
 	}
 	/*function user_tambah(){
 		$this->load->view('admin/v_header');
