@@ -26,7 +26,8 @@
 					  <option>admin</option>
 					  <option>guru</option>
 					  <option>siswa</option>
-					  
+
+					  <!-- pake if login sebagai guru nanti ke halaman v_guru, trs siswa nanti ke v_siswa, admin nnti ke v_admin -->
 					</select>
 				  </div>
 				  <button type="submit" class="btn btn-primary">Submit</button>

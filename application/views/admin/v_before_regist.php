@@ -62,7 +62,7 @@
                 </div>
                 <div class="navbar-btn button-center d-none d-sm-inline-block">
                   <ul>
-                      <li><a class="btn bg-gradient-dark w-100 my-4 mb-2" href="<?php echo base_url('Registrasi');?>">Next</a></li>
+                      <li><a class="btn bg-gradient-dark w-100 my-4 mb-2" href="<?php echo base_url('RRegist');?>">Next</a></li>
                     </ul>
                </div> 
                <div class="text-center">

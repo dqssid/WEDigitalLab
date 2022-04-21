@@ -1,46 +1,46 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
-    
+
     <!--====== Title ======-->
-	<title>Digital Lab</title>
-    
+    <title>Digital Lab</title>
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="<?php echo base_url();?>template/landing/assets/images/favicon.png" type="image/png">
-        
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>template/landing/assets/images/favicon.png" type="image/png">
+
     <!--====== Magnific Popup CSS ======-->
-    <link rel="stylesheet" href="<?php echo base_url();?>template/landing/assets/css/magnific-popup.css">
-        
+    <link rel="stylesheet" href="<?php echo base_url(); ?>template/landing/assets/css/magnific-popup.css">
+
     <!--====== Slick CSS ======-->
-    <link rel="stylesheet" href="<?php echo base_url();?>template/landing/assets/css/slick.css">
-        
+    <link rel="stylesheet" href="<?php echo base_url(); ?>template/landing/assets/css/slick.css">
+
     <!--====== Line Icons CSS ======-->
-    <link rel="stylesheet" href="<?php echo base_url();?>template/landing/assets/css/LineIcons.css">
-        
+    <link rel="stylesheet" href="<?php echo base_url(); ?>template/landing/assets/css/LineIcons.css">
+
     <!--====== Bootstrap CSS ======-->
-    <link rel="stylesheet" href="<?php echo base_url();?>template/landing/assets/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="<?php echo base_url(); ?>template/landing/assets/css/bootstrap.min.css">
+
     <!--====== Default CSS ======-->
-    <link rel="stylesheet" href="<?php echo base_url();?>template/landing/assets/css/default.css">
-    
+    <link rel="stylesheet" href="<?php echo base_url(); ?>template/landing/assets/css/default.css">
+
     <!--====== Style CSS ======-->
-    <link rel="stylesheet" href="<?php echo base_url();?>template/landing/assets/css/style.css">
-    
+    <link rel="stylesheet" href="<?php echo base_url(); ?>template/landing/assets/css/style.css">
+
 </head>
 
 <body>
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-   
+
     <!--====== PRELOADER PART START ======-->
 
     <div class="preloader">
@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
     <!--====== PRELOADER PART ENDS ======-->
-    
+
     <!--====== NAVBAR TWO PART START ======-->
 
     <section class="navbar-area">
@@ -69,11 +69,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
-                       
+
                         <a class="navbar-brand" href="">
-                            <img src="<?php echo base_url();?>template/landing/assets/images/logo.png" width ="110" height="110" alt="Logo">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/favicon.png" width="100" height="100" alt="Logo">
                         </a>
-                        
+
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="toggler-icon"></span>
                             <span class="toggler-icon"></span>
@@ -90,14 +90,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
                             </ul>
                         </div>
-                        <div class = "navbar-btn d-none d-sm-inline-block">
+                        <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
-                                <li><a class="solid" href="<?php echo base_url('BRegistrasi');?>">Registrasi</a></li>
+                                <li><a class="solid" href="<?php echo base_url('BRegistrasi'); ?>">Registrasi</a></li>
                             </ul>
                         </div>
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
-                                <li><a class="solid" href="<?php echo base_url('Login');?>">Log-in</a></li>
+                                <li><a class="solid" href="<?php echo base_url('Login'); ?>">Log-in</a></li>
                             </ul>
                         </div>
                     </nav> <!-- navbar -->
@@ -107,13 +107,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!--====== NAVBAR TWO PART ENDS ======-->
-    
+
     <!--====== SLIDER PART START ======-->
 
     <section id="home" class="slider_area">
         <div id="carouselThree" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselThree" data-slide-to="0" class= "active"></li>
+                <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselThree" data-slide-to="1"></li>
                 <li data-target="#carouselThree" data-slide-to="2"></li>
             </ol>
@@ -127,7 +127,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <h1 class="title">Digital Laboratory</h1>
                                     <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login');?>">Get Started</a></li>
+                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login'); ?>">Get Started</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div> <!-- container -->
                     <div class="slider-image-box d-none d-lg-flex align-items-end">
                         <div class="slider-image">
-                            <img src="<?php echo base_url();?>template/landing/assets/images/slider/1.png" alt="Hero">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/slider/1.png" alt="Hero">
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
                 </div> <!-- carousel-item -->
@@ -148,7 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <h1 class="title">Chemistry Practice</h1>
                                     <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login');?>">Get Started</a></li>
+                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login'); ?>">Get Started</a></li>
                                     </ul>
                                 </div> <!-- slider-content -->
                             </div>
@@ -156,7 +156,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div> <!-- container -->
                     <div class="slider-image-box d-none d-lg-flex align-items-end">
                         <div class="slider-image">
-                            <img src="<?php echo base_url();?>template/landing/assets/images/slider/2.png" alt="Hero">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/slider/2.png" alt="Hero">
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
                 </div> <!-- carousel-item -->
@@ -169,7 +169,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <h1 class="title">Coming Soon</h1>
                                     <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login');?>">Get Started</a></li>
+                                        <li><a class="main-btn rounded-one" href="<?php echo base_url('Login'); ?>">Get Started</a></li>
                                     </ul>
                                 </div> <!-- slider-content -->
                             </div>
@@ -177,7 +177,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div> <!-- container -->
                     <div class="slider-image-box d-none d-lg-flex align-items-end">
                         <div class="slider-image">
-                            <img src="<?php echo base_url();?>template/landing/assets/images/slider/3.png" alt="Hero">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/slider/3.png" alt="Hero">
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
                 </div> <!-- carousel-item -->
@@ -193,7 +193,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!--====== SLIDER PART ENDS ======-->
-    
+
     <!--====== FEATRES TWO PART START ======-->
 
     <section id="academic" class="features-area">
@@ -213,7 +213,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <h4 class="features-title"><a href="#">Materi</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-brush"></i>
-                                <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
+                                <img class="shape" src="<?php echo base_url(); ?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
                             </div>
                         </div>
                         <div class="features-content">
@@ -228,7 +228,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <h4 class="features-title"><a href="#">Praktikum</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-layout"></i>
-                                <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
+                                <img class="shape" src="<?php echo base_url(); ?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
                             </div>
                         </div>
                         <div class="features-content">
@@ -243,7 +243,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <h4 class="features-title"><a href="#">Absensi</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-bolt"></i>
-                                <img class="shape" src="<?php echo base_url();?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
+                                <img class="shape" src="<?php echo base_url(); ?>template/landing/assets/images/f-shape-1.svg" alt="Shape">
                             </div>
                         </div>
                         <div class="features-content">
@@ -255,8 +255,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-        <!--====== FEATRES TWO PART ENDS ======-->
-        <!--====== PRINICNG START ======-->
+    <!--====== FEATRES TWO PART ENDS ======-->
+    <!--====== PRINICNG START ======-->
 
     <section id="blog" class="pricing-area ">
         <div class="container">
@@ -286,10 +286,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
                             <a class="main-btn rounded-one" href="#">GET STARTED</a>
-                        </div>    
+                        </div>
                     </div> <!-- pricing style one -->
                 </div>
-                
+
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="pricing-style mt-30">
                         <div class="pricing-icon text-center">
@@ -310,11 +310,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
-                
+
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="pricing-style mt-30">
                         <div class="pricing-icon text-center">
-                            <img src="<?php echo base_url();?>template/landing/assets/images/enterprise.svg" alt="">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/enterprise.svg" alt="">
                         </div>
                         <div class="pricing-header text-center">
                             <h5 class="sub-title">12/22/20</h5>
@@ -336,7 +336,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!--====== PRINICNG ENDS ======-->
-    
+
     <!--====== ABOUT PART START ======-->
 
     <section id="about" class="about-area">
@@ -359,7 +359,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <div class="card-body">
                                             <p class="text">Team Study Cases DigitalLab from CV Berkita</p>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div> <!-- card -->
                                 <div class="card">
                                     <div class="card-header" id="headingTwo">
@@ -367,7 +367,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text">Sistem Informasi Manajemen Laboratorium adalah sebuah aplikasi perangkat lunak berbasis komputer yang digunakan di laboratorium untuk mengelola dan menganalisis  sampel , hasil tes , staff  laboratorium, peralatan laboratorium serta  bertujuan untuk menghasilkan laporan dan fungsi lain. Dengan demikian, fungsi dari sistem informasi laboratorium pengelolaan mencakup pengelolaan kegiatan di laboratorium , mengelola informasi laboratorium , serta integrasi perangkat dan pengolahan sistem komputer lainnya (Skobelev, 2011).</p>
+                                            <p class="text">Sistem Informasi Manajemen Laboratorium adalah sebuah aplikasi perangkat lunak berbasis komputer yang digunakan di laboratorium untuk mengelola dan menganalisis sampel , hasil tes , staff laboratorium, peralatan laboratorium serta bertujuan untuk menghasilkan laporan dan fungsi lain. Dengan demikian, fungsi dari sistem informasi laboratorium pengelolaan mencakup pengelolaan kegiatan di laboratorium , mengelola informasi laboratorium , serta integrasi perangkat dan pengolahan sistem komputer lainnya (Skobelev, 2011).</p>
                                         </div>
                                     </div>
                                 </div> <!-- card -->
@@ -377,7 +377,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text">1. Meningkatkan kualitas dalam mengajar praktik secara online dan mengoptimalkan proses pembelajaran praktik secara online.<br/> 2. Meningkatkan kualitas dalam mengajar praktik secara online dan mengoptimalkan proses pembelajaran praktik secara online. <br/> 3. Membantu siswa dan guru dalam monitoring aktifitas atau praktik - praktik laboratorium. Seperti, materi apa yang akan di praktikan, jadwal praktik, data guru, data siswa, data admin.<br/> 4. Agar siswa dapat  memahami konsep materi sebelum melakukan praktik</p>
+                                            <p class="text">1. Meningkatkan kualitas dalam mengajar praktik secara online dan mengoptimalkan proses pembelajaran praktik secara online.<br /> 2. Meningkatkan kualitas dalam mengajar praktik secara online dan mengoptimalkan proses pembelajaran praktik secara online. <br /> 3. Membantu siswa dan guru dalam monitoring aktifitas atau praktik - praktik laboratorium. Seperti, materi apa yang akan di praktikan, jadwal praktik, data guru, data siswa, data admin.<br /> 4. Agar siswa dapat memahami konsep materi sebelum melakukan praktik</p>
                                         </div>
                                     </div>
                                 </div> <!-- card -->
@@ -407,7 +407,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!--====== ABOUT PART ENDS ======-->
-    
+
     <!--====== TESTIMONIAL PART START ======-->
 
     <section id="testimonial" class="testimonial-area">
@@ -465,7 +465,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="testimonial-author d-sm-flex justify-content-between">
                                     <div class="author-info d-flex align-items-center">
                                         <div class="author-image">
-                                                <img src="template/landing/assets/images/author-2.jpg" alt="author">
+                                            <img src="template/landing/assets/images/author-2.jpg" alt="author">
                                         </div>
                                         <div class="author-name media-body">
                                             <h5 class="name">Mr. Jems Bond</h5>
@@ -491,7 +491,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="testimonial-author d-sm-flex justify-content-between">
                                     <div class="author-info d-flex align-items-center">
                                         <div class="author-image">
-                                                <img src="template/landing/assets/images/author-3.jpg" alt="author">
+                                            <img src="template/landing/assets/images/author-3.jpg" alt="author">
                                         </div>
                                         <div class="author-name media-body">
                                             <h5 class="name">Mr. Jems Bond</h5>
@@ -518,7 +518,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!--====== TESTIMONIAL PART ENDS ======-->
-    
+
     <!--====== TEAM START ======-->
 
     <section id="team" class="team-area pt-120 pb-130">
@@ -613,7 +613,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!--====== TEAM  ENDS ======-->
-    
+
     <!--====== CONTACT PART START ======-->
 
     <section id="contact" class="contact-area">
@@ -673,7 +673,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-12">
                     <div class="contact-wrapper form-style-two pt-115">
                         <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span></h4>
-                        
+
                         <form id="contact-form" action=" " method="post">
                             <div class="row">
                                 <div class="col-md-6">
@@ -718,7 +718,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!--====== CONTACT PART ENDS ======-->
-    
+
     <!--====== FOOTER PART START ======-->
 
     <section class="footer-area footer-dark">
@@ -726,7 +726,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="template/landing/assets/images/clogo.png" alt="Logo"></a>                    
+                        <a class="mt-30" href="index.html"><img src="template/landing/assets/images/clogo.png" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
@@ -735,8 +735,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
                     </ul> <!-- social -->
                     <div class="footer-support text-center">
-                        <span class="number">+8801234567890</span>
+                        <span class="number">+0828812383</span>
                         <span class="mail">support@uideck.com</span>
+                        <span class="mail">digitallab@berkita.com</span>
                     </div>
                     <div class="copyright text-center mt-35">
                         <p class="text">Designed by <a href="https://uideck.com" rel="nofollow">UIdeck</a> and Built-with <a rel="nofollow" href="https://ayroui.com">DigitalLab || Berkita</a> </p> <!-- https://ayroui.com -->
@@ -747,16 +748,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!--====== FOOTER PART ENDS ======-->
-    
+
     <!--====== BACK TOP TOP PART START ======-->
 
     <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
 
-    <!--====== BACK TOP TOP PART ENDS ======-->    
+    <!--====== BACK TOP TOP PART ENDS ======-->
 
     <!--====== PART START ======-->
 
-<!--
+    <!--
     <section class="">
         <div class="container">
             <div class="row">
@@ -774,33 +775,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
     <!--====== Jquery js ======-->
-    <script src="<?php echo base_url();?>template/landing/assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="<?php echo base_url();?>template/landing/assets/js/vendor/modernizr-3.7.1.min.js"></script>
-    
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
     <!--====== Bootstrap js ======-->
-    <script src="<?php echo base_url();?>template/landing/assets/js/popper.min.js"></script>
-    <script src="<?php echo base_url();?>template/landing/assets/js/bootstrap.min.js"></script>
-    
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/popper.min.js"></script>
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/bootstrap.min.js"></script>
+
     <!--====== Slick js ======-->
-    <script src="<?php echo base_url();?>template/landing/assets/js/slick.min.js"></script>
-    
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/slick.min.js"></script>
+
     <!--====== Magnific Popup js ======-->
-    <script src="<?php echo base_url();?>template/landing/assets/js/jquery.magnific-popup.min.js"></script>
-    
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/jquery.magnific-popup.min.js"></script>
+
     <!--====== Ajax Contact js ======-->
-    <script src="<?php echo base_url();?>template/landing/assets/js/ajax-contact.js"></script>
-    
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/ajax-contact.js"></script>
+
     <!--====== Isotope js ======-->
-    <script src="<?php echo base_url();?>template/landing/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="<?php echo base_url();?>template/landing/assets/js/isotope.pkgd.min.js"></script>
-    
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/isotope.pkgd.min.js"></script>
+
     <!--====== Scrolling Nav js ======-->
-    <script src="<?php echo base_url();?>template/landing/assets/js/jquery.easing.min.js"></script>
-    <script src="<?php echo base_url();?>template/landing/assets/js/scrolling-nav.js"></script>
-    
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/jquery.easing.min.js"></script>
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/scrolling-nav.js"></script>
+
     <!--====== Main js ======-->
-    <script src="<?php echo base_url();?>template/landing/assets/js/main.js"></script>
-    
+    <script src="<?php echo base_url(); ?>template/landing/assets/js/main.js"></script>
+
 </body>
 
 </html>

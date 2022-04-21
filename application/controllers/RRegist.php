@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class BRegistrasi extends CI_Controller {
+class RRegist extends CI_Controller
+{
 
 	/**
 	 * Index Page for this controller.
@@ -23,8 +24,9 @@ class BRegistrasi extends CI_Controller {
 		$this->load->view('admin/v_registrasi');
 	}
 	// validasi login
-function login_aksi(){
-	//deklarasi
+	function regist_aksi()
+	{
+		//deklarasi
 		/*$email = $this->input->post('email');
 		$password = $this->input->post('password');
 		//$_POST['variable'];
@@ -33,37 +35,37 @@ function login_aksi(){
 		$username = $this->input->post('email');
 		$password = $this->input->post('password');
 		//$sebagai = $this->input->post('sebagai');
-		
+
 		// $sebagai = $this->input->post('sebagai');
-		$this->form_validation->set_rules('email','Username','required');
-		$this->form_validation->set_rules('password','Password','required');
-		if($this->form_validation->run() !=false){
+		$this->form_validation->set_rules('email', 'Username', 'required');
+		$this->form_validation->set_rules('password', 'Password', 'required');
+		if ($this->form_validation->run() != false) {
 			$where = array(
 				'username' => $username,
 				'password' => md5($password)
-		);
-		
-		// if($sebagai == "admin"){
-			$cek = $this->M_data->cek_login('tbl_user',$where)->num_rows();
-			
-			$data = $this->M_data->cek_login('tbl_user',$where)->row();
-			
-			if($cek > 0){
+			);
+
+			// if($sebagai == "admin"){
+			$cek = $this->M_data->cek_login('tbl_user', $where)->num_rows();
+
+			$data = $this->M_data->cek_login('tbl_user', $where)->row();
+
+			if ($cek > 0) {
 				$data_session = array(
 					'id' => $data->id_user,
 					'username' => $data->email,
 					'status' => 'admin_login'
-			);
+				);
 				$this->session->set_userdata($data_session);
-				redirect(base_url().'home');
-			}else{
-				redirect(base_url().'login?alert=gagal');
+				redirect(base_url() . 'home');
+			} else {
+				redirect(base_url() . 'login?alert=gagal');
 			}
-		//}
-		}else{
+			//}
+		} else {
 			$this->load->view('admin/v_login');
 		}
-/*
+		/*
 }else if($sebagai == "petugas"){
 $cek = $this->m_data->cek_login('petugas',$where)->num_rows();
 $data = $this->m_data->cek_login('petugas',$where)->row();
@@ -86,4 +88,3 @@ $this->load->view('v_login');
 */
 	}
 }
-
