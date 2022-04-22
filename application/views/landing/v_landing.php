@@ -71,7 +71,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <nav class="navbar navbar-expand-lg">
 
                         <a class="navbar-brand" href="">
-                            <img src="<?php echo base_url(); ?>template/landing/assets/images/favicon.png" width="100" height="100" alt="Logo">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/favicon.png" alt="Logo">
                         </a>
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,7 +92,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
-                                <li><a class="solid" href="<?php echo base_url('BRegistrasi'); ?>">Registrasi</a></li>
+                                <li><a class="solid" href="<?php echo base_url('BRegistrasi'); ?>">Sign-up</a></li>
                             </ul>
                         </div>
                         <div class="navbar-btn d-none d-sm-inline-block">
@@ -272,10 +272,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="pricing-style mt-30">
                         <div class="pricing-icon text-center">
-                            <img src="template/landing/assets/images/basic.svg" alt="">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/gambar (9).jpg" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">Trend</h5>
+                            <h5 class="sub-title">Trending #1</h5>
                             <p class="month"><span class="price">Dasar- Dasar Java</p>
                         </div>
                         <div class="pricing-list">
@@ -293,10 +293,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="pricing-style mt-30">
                         <div class="pricing-icon text-center">
-                            <img src="template/landing/assets/images/pro.svg" alt="">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/gambar.jpg" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">Pro</h5>
+                            <h5 class="sub-title">Favorite</h5>
                             <p class="month"><span class="price">Prakerin 2022/2023</p>
                         </div>
                         <div class="pricing-list">
@@ -314,10 +314,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="pricing-style mt-30">
                         <div class="pricing-icon text-center">
-                            <img src="<?php echo base_url(); ?>template/landing/assets/images/enterprise.svg" alt="">
+                            <img src="<?php echo base_url(); ?>template/landing/assets/images/gambar (6).jpg" alt="">
                         </div>
                         <div class="pricing-header text-center">
-                            <h5 class="sub-title">12/22/20</h5>
+                            <h5 class="sub-title">Teknologi</h5>
                             <p class="month"><span class="price">Eksperimen Manusia Salju</span></p>
                         </div>
                         <div class="pricing-list">
@@ -399,7 +399,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="col-lg-7">
                     <div class="about-image mt-50">
-                        <img src="template/landing/assets/images/about.jpg" alt="about">
+                        <img src="template/landing/assets/images/gambar (3).jpg" alt="about">
                     </div> <!-- faq image -->
                 </div>
             </div> <!-- row -->
@@ -554,7 +554,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-lg-3 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
-                            <img src="template/landing/assets/images/team-2.jpg" alt="Team">
+                            <img src="template/landing/assets/images/team-3.jpg" alt="Team">
                         </div>
                         <div class="team-content">
                             <div class="team-social">
@@ -573,7 +573,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-lg-3 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
-                            <img src="template/landing/assets/images/team-3.jpg" alt="Team">
+                            <img src="template/landing/assets/images/team-2.jpg" alt="Team">
                         </div>
                         <div class="team-content">
                             <div class="team-social">
@@ -592,7 +592,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-lg-3 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
-                            <img src="template/landing/assets/images/team-3.jpg" alt="Team">
+                            <img src="template/landing/assets/images/team-2.jpg" alt="Team">
                         </div>
                         <div class="team-content">
                             <div class="team-social">
@@ -726,7 +726,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="template/landing/assets/images/clogo.png" alt="Logo"></a>
+                        <a class="mt-30" href="index.html"><img src="template/landing/assets/images/gambar (5).jpg" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>

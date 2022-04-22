@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Data_Siswa extends CI_Controller {
+class Data_Siswa extends CI_Controller
+{
 
 	/**
 	 * Index Page for this controller.
@@ -20,7 +21,7 @@ class Data_Siswa extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['data_siswa'] = $this->M_data->get_data('data_siswa')->result();
+		$data['data_siswa'] = $this->M_data->get_data('tbl_siswa')->result();
 		$data['judul'] = 'lab_digital';
 		$this->load->view('admin/v_header');
 		$this->load->view('admin/v_sidebar');

@@ -19,6 +19,13 @@ class RRegist extends CI_Controller
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	/*public function __construct()
+	{
+		parent::__construct();
+		$this->load->library('form_validasi');
+	}*/
+
 	public function index()
 	{
 		$this->load->view('admin/v_registrasi');
@@ -26,13 +33,60 @@ class RRegist extends CI_Controller
 	// validasi login
 	function regist_aksi()
 	{
+		$nama = $this->input->post('nama');
+		$nis = $this->input->post('nis');
+		$kelas = $this->input->post('kelas');
+		$jurusan = $this->input->post('jurusan');
+		$email = $this->input->post('email');
+		$password = $this->input->post('password');
+		$repeat_pass = $this->input->post('repeat_pass');
+		//$sebagai = $this->input->post('sebagai');
+
+		// $sebagai = $this->input->post('sebagai');
+		$this->form_validation->set_rules('nama', 'Nama', 'required');
+		$this->form_validation->set_rules('nis', 'NIS', 'required');
+		$this->form_validation->set_rules('kelas', 'Kelas', 'required');
+		$this->form_validation->set_rules('jurusan', 'Jurusan', 'required');
+		$this->form_validation->set_rules('email', 'Username', 'required');
+		$this->form_validation->set_rules('password', 'Password', 'required');
+		$this->form_validation->set_rules('repeat_pass', 'RepeatPassword', 'required');
+
+		if ($this->form_validation->run() != false) {
+			$where = array(
+				'nama' => $nama,
+				'nis' => $nis,
+				'kelas' => $kelas,
+				'jurusan' => $jurusan,
+				'username' => $email,
+				'password' => md5($password),
+				'repeat_pass' => md5($password)
+
+			);
+		}
+	}
+}
+
+/*if ($this->form_validation->run() == false) {
+			$data['tbl_regist_siswa'] = $this->M_data->get_data('tbl_regist_siswa')->result();
+			$data['judul'] = 'lab_digital';
+			$this->load->view('admin/v_header');
+			$this->load->view('admin/v_sidebar');
+			$this->load->view('admin/v_navbar');
+			$this->load->view('admin/v_data_siswa', $data);
+			$this->load->view('admin/v_footer');
+		} else {
+			echo ('Data Berhasil Ditambahkan');
+		}*/
+
+		//$data['title'] = 'DigitalLab User Registrasi';
+
 		//deklarasi
 		/*$email = $this->input->post('email');
 		$password = $this->input->post('password');
 		//$_POST['variable'];
 		echo $email.'<br>'.$password;
 		*/
-		$username = $this->input->post('email');
+		/*$username = $this->input->post('email');
 		$password = $this->input->post('password');
 		//$sebagai = $this->input->post('sebagai');
 
@@ -86,5 +140,3 @@ redirect(base_url().'login?alert=gagal');
 $this->load->view('v_login');
 }
 */
-	}
-}
